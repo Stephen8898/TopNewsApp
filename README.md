@@ -1,5 +1,12 @@
 # news-app
 
+
+### Project Details
+#### This news application allows user to view the current top 20 news in the U.S. via a Carousel.
+
+#### Users can also search any topic to to get news articles written on it worldwide. Comments can be created for that particulare article.
+
+
 ## Project setup
 ```
 npm install
@@ -9,6 +16,7 @@ npm install
 ```
 npm run serve
 ```
+
 
 ### Compiles and minifies for production
 ```
