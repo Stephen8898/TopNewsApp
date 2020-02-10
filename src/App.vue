@@ -40,7 +40,6 @@
 import Vue from "vue";
 import Carousel from "./components/Carousel.vue";
 import SearchInfo from "./components/SearchInfo.vue";
-// import About from "./views/About.vue";
 
 export default Vue.extend({
   name: "App",
@@ -48,7 +47,7 @@ export default Vue.extend({
   components: {
     carousel: Carousel,
     "search-info": SearchInfo
-    // about: About
+
   },
 
   data: () => ({
