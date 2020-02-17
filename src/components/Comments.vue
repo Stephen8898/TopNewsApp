@@ -195,10 +195,21 @@ hr {
 }
 
 
-
 @media screen and (max-width: 361px ){
  .frame{
   width: 325px
+ }
+}
+
+@media screen and (max-width: 412px ){
+ .frame{
+  width: 360px
+ }
+}
+
+@media screen and (max-width: 380px ){
+ .frame{
+  width: 350px
  }
 }
 /* .close {
