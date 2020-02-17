@@ -6,7 +6,8 @@
           Description: {{ syncedItem.description }}
         </v-card-text>
 
-        <iframe
+        <iframe 
+          class="frame"
           width="500"
           height="430"
           :src="syncedItem.siteLink"
@@ -193,6 +194,13 @@ hr {
   padding: 5px;
 }
 
+
+
+@media screen and (max-width: 361px ){
+ .frame{
+  width: 325px
+ }
+}
 /* .close {
 } */
 </style>
