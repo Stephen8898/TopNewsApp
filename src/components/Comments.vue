@@ -123,7 +123,7 @@ export default class Comments extends Vue {
       body: this.body
     };
 
-    fetch("http://localhost:5000/api/comment/post_comment", {
+    fetch("https://topnews-app.herokuapp.com/api/comment/post_comment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -143,7 +143,7 @@ export default class Comments extends Vue {
 
   getComments() {
     fetch(
-      `http://localhost:5000/api/comment/get_comments/${this.syncedItem.title}`,
+      `https://topnews-app.herokuapp.com/api/comment/get_comments/${this.syncedItem.title}`,
       {
         method: "GET"
       }

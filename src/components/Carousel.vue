@@ -45,7 +45,7 @@ export default class Carousel extends Vue {
   items: Array<Record<string, any>> = [];
 
   beforeCreate() {
-    fetch(`http://localhost:5000/api/news`, { method: "GET" })
+    fetch(`https://topnews-app.herokuapp.com/api/news`, { method: "GET" })
       .then(data => data.json())
       .then(body => {
         this.items = body.result;
