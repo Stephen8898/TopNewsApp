@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="transparent" hide-on-scroll class="header-bar" dark>
+    <v-app-bar app color="transparent" class="header-bar" hide-on-scroll dark>
       <v-toolbar-title style="margin: auto">
         <h1>Top News Today</h1></v-toolbar-title
       >

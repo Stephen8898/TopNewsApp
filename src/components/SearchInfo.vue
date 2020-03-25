@@ -80,7 +80,7 @@ export default class SearchInfo extends Vue {
       .then(data => data.json())
       .then(body => {
         this.items = body.result;
-        console.log(this.items);
+        // console.log(this.items);
       })
       .catch(err => {
         throw err;

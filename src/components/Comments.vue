@@ -103,7 +103,7 @@
 import Vue from "vue";
 import { Component, PropSync } from "vue-property-decorator";
 @Component
-export default class Comments extends Vue {
+export default class Comments extends Vue { 
   name = "";
   body = "";
   comments: Array<Record<string, any>> = [];
