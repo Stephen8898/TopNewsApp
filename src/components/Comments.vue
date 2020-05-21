@@ -124,7 +124,7 @@ export default class Comments extends Vue {
       body: this.body
     };
 
-    fetch("https://topnews-app.herokuapp.com/api/comment/post_comment", {
+    fetch("https://newsapp-api-qou7lgjz3a-uc.a.run.app/api/comment/post_comment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -144,7 +144,7 @@ export default class Comments extends Vue {
 
   getComments() {
     fetch(
-      `https://topnews-app.herokuapp.com/api/comment/get_comments/${this.syncedItem.title}`,
+      `https://newsapp-api-qou7lgjz3a-uc.a.run.app/api/comment/get_comments/${this.syncedItem.title}`,
       {
         method: "GET"
       }

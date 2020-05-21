@@ -74,7 +74,7 @@ export default class SearchInfo extends Vue {
       this.items = [];
       return;
     }
-    fetch(`https://topnews-app.herokuapp.com/api/news/search/?q=${this.value}`, {
+    fetch(`https://newsapp-api-qou7lgjz3a-uc.a.run.app/api/news/search/?q=${this.value}`, {
       method: "GET"
     })
       .then(data => data.json())
